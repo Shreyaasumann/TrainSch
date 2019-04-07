@@ -1,0 +1,73 @@
+.container{
+    margin: 20px;
+}
+
+.jumbotron {
+    font-family : 'Times New Roman', Times, sans-serif;
+    position : relative;
+    color : rgb(11, 136, 238);
+    letter-spacing: .45em;
+    text-shadow: 4px 3px rgb(161, 213, 223);
+}
+
+#portfolio{
+    position: absolute;
+    top : 10px;
+    left : 40px;
+    border : none;
+    background : transparent;
+    color : hsl(225, 28%, 52%);
+    font-size: 25px;
+    letter-spacing: .35em;
+    font-weight: bold;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+a {
+    color : rgb(116, 223, 139);
+    text-decoration: none;    
+}
+
+.card{
+    border : solid;
+    border-radius: 10px;
+    box-shadow: 0 7px 6px -6px;
+}
+
+#trainTable, #form-input{
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+.thead-default{
+    background-color : rgb(161, 173, 214); 
+}
+.tableBody{
+    height : 100px;
+    overflow : auto;
+}
+
+.panel, .card-heading {
+    padding-left : 10px;
+    background-color : rgb(143, 216, 216);
+    letter-spacing: .45em;
+}
+
+.form-control, .tableRow {
+    box-shadow : inset 1px 0 10px;
+}
+
+.btn{
+    background-color : rgb(141, 210, 231); 
+    cursor: pointer;
+    width : 100%;
+    opacity : 0.79;
+    border : none;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: .45em;
+    box-shadow: 0 8px 6px -6px rgb(136, 146, 141);
+}
+.btn:hover{
+    opacity: 1;
+}
